@@ -6,7 +6,6 @@
   background-color: white;
   padding: 15px;
   border-radius: 25px;
-  display: none;
 }
 .question {
   text-align: center;
@@ -20,6 +19,7 @@
 }
 .progression-wrapper {
   border: 1px rgb(185, 185, 185) solid;
+  background-color: rgb(228, 225, 225);
   border-radius: 15px;
   width: 90%;
   height: 15px;
@@ -29,10 +29,23 @@
   justify-content: flex-start;
   box-shadow: 10px;
 }
+.aswer {
+  padding: 10px;
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.aswer:hover {
+  background-color: rgb(246, 246, 246);
+  transition: all 0.5s;
+  cursor: pointer;
+}
 .progression {
   /* width: 50%; */
   background: rgb(69, 181, 181);
   background: linear-gradient(90deg, rgba(69, 181, 181, 1) 0%, rgba(0, 126, 226, 1) 100%);
   height: 15px;
   border-radius: 15px;
+  transition: all 0.5s;
 }
