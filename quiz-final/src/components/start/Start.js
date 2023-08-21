@@ -1,3 +1,4 @@
+import React from 'React';
 import './start.css';
 
 function Start({ questions, question, onClickAnswer, step }) {
