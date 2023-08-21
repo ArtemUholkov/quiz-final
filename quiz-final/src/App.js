@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'React';
 import './App.css';
 import Start from './components/start/Start';
 import Finish from './components/finish/finish';
