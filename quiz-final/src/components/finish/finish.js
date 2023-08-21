@@ -1,3 +1,4 @@
+import React from 'React';
 import './finish.css';
 import done from '../finish/done.png';
 
